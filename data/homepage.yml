@@ -1,0 +1,223 @@
+# showcase
+showcase:
+  enable: true
+  title: "Hello, I’m Rehan."
+  subtitle: "Software Developer"
+  description: "A Computer Science Engineer based in India with keen interest in exploring modern technologies,frameworks and enhancing my software development skills along the way to be a part of the Tech Community."
+  image:
+    alt: "Showcase keyboard and mouse image"
+    x: "img/showcase/showcase.png"
+    _2x: "img/showcase/showcase@2x.png"
+  imageMobile:
+    alt: "Showcase keyboard and mouse image"
+    x: "img/showcase/showcase-mobile.jpg"
+
+  button:
+    icon: "icon-profile-fill"
+    btnText: "My Work"
+    URL: "#portfolio"
+  button2:
+    icon: "icon-profile-fill"
+    btnText: "My Resume"
+    URL: "https://drive.google.com/file/d/1C-lIhOCTRcJDy8VP2-963KGOhe4ymrJS/view?usp=sharing"
+
+  socialLinks:
+    - icon: "linkedin"
+      URL: "https://www.linkedin.com/in/iamrehanmemon/"
+
+    - icon: "github"
+      URL: "https://github.com/iamrehanmemon"
+
+# about
+about:
+  enable: true
+  title: "Who am I?"
+  content: '<p class="lead">
+    I don’t like to define myself by the work I’ve done. I define myself by the work I want to do. Skills can be taught, personality is inherent. I prefer to keep learning, continue challenging myself, and do interesting things that matter.
+    </p>
+    <p class="lead">
+    My main area of focus lies in developing web, desktop and mobile products.
+    But as long as you have an interesting problem,and let me deliver.
+    </p>
+    <p class="lead">
+    Available for fulltime. Hire me and get your project done.
+    </p>'
+  button:
+    icon: "icon-profile-fill"
+    btnText: "Contact Me"
+    URL: "#contact"
+  image:
+    x: "img/who-am-i/illustration.svg"
+    _2x: "img/who-am-i/illustration.svg"
+
+# education
+education:
+  enable: true
+  title: "Education"
+  items:
+    - university: "University of Mumbai"
+      year: "2020"
+      degree: "Bachelor of Engineering, Computer Engineering"
+      marks: "8.84 CGPA"
+
+    - university: "Higher Secondary School"
+      year: "2016"
+      marks: "76.46%"
+
+    - university: "Secondary School"
+      year: "2014"
+      marks: "92.6%"
+
+# experience
+experience:
+  enable: false
+  title: "Education"
+  description: "Over 15+ years of experience working with companies from all over the world. I design & develop digital products to help businesses and improve people's lives."
+  items:
+    - title: "BE - Computer Science"
+      company: "7.8 CGPA | 2022 (Expected)"
+
+    - title: "Higher Secondary School"
+      company: "82% | 2018"
+
+    - title: "Secondary School"
+      company: "83% | 2016"
+
+# Client & Work
+client_and_work:
+  title: "Skills & Projects"
+  enable: true
+
+  clients:
+    - logo:
+        x: "img/skills/icons8-react-40.png"
+        _2x: "img/skills/icons8-react-80.png"
+      alt: "React"
+
+    - logo:
+        x: "img/skills/icons8-html-5-48.png"
+        _2x: "img/skills/icons8-html-5-96.png"
+      alt: "HTML5"
+
+    - logo:
+        x: "img/skills/icons8-css3-48.png"
+        _2x: "img/skills/icons8-css3-96.png"
+      alt: "CSS3"
+
+    - logo:
+        x: "img/skills/icons8-javascript-48.png"
+        _2x: "img/skills/icons8-javascript-96.png"
+      alt: "JavaScript"
+
+    - logo:
+        x: "img/skills/icons8-firebase-48.png"
+        _2x: "img/skills/icons8-firebase-96.png"
+      alt: "Firebase"
+
+    - logo:
+        x: "img/skills/icons8-sass-48.png"
+        _2x: "img/skills/icons8-sass-96.png"
+      alt: "SASS"
+
+  works:
+    - title: "Flex-N-Chill"
+      description: "A Web App to find your next favourite movie powered by The Movie Database API.Implemented Responsive UI, Authentication, State Management, Routing and API calls.Technologies: React, Redux, Firebase, SASS, CSS Grid, JS "
+      button:
+        icon: "icon-profile-fill"
+        btnText: "View Project"
+        URL: "https://flex-n-chill.netlify.app/"
+      button2:
+        icon: "icon-github-line"
+        btnText: "View Code"
+        URL: "https://github.com/iamrehanmemon/flex-n-chill"
+      image:
+        x: "img/works/Flex-N-Chill-1.png"
+        _2x: "img/works/Flex-N-Chill-1.png"
+      is_even: true
+
+    - title: "PizzaExpress"
+      description: "A Frontend website designed for a Pizza Restaurant in React with responsive design styled with CSS Grid and Flexbox.Technologies: React, Styled Components, SASS, CSS, JS"
+      button:
+        icon: "icon-profile-fill"
+        btnText: "View Project"
+        URL: "https://pizzaexpress.netlify.app/"
+      button2:
+        icon: "icon-github-line"
+        btnText: "View Code"
+        URL: "https://github.com/iamrehanmemon/pizzaexpress"
+      image:
+        x: "img/works/PizzaExpress.jpg"
+        _2x: "img/works/PizzaExpress.jpg"
+      is_even: false
+
+    - title: "Calamity Tracker"
+      description: "An natural event application powered by EONET API (Earth Observatory Natural Event Tracker) displaying 3 types of different real time natural disastrous events happening on Earth.Technologies: React, Mapbox, SASS, CSS, JS"
+      button:
+        icon: "icon-profile-fill"
+        btnText: "View Project"
+        URL: "https://calamity-tracker.netlify.app/"
+      button2:
+        icon: "icon-github-line"
+        btnText: "View Code"
+        URL: "https://github.com/iamrehanmemon/calamity-tracker"
+      image:
+        x: "img/works/Calamity-Tracker-1.png"
+        _2x: "img/works/Calamity-Tracker-1.png"
+      is_even: true
+
+# testimonial
+testimonial:
+  enable: false
+  title: "Testimonials"
+  items:
+    - name: "Daniel Jordan"
+      position: "Phonet, CEO"
+      content: "Cold calling can be a great way to generate quality leads. You get to speak to the gatekeepers and stakeholders, and you get a great insight into their requirements and influences. But cold calling is an art-form. It can be daunting, it’s always a lot of work, and you always need to make a good impression."
+      image:
+        x: "img/testimonials/daniel-jordan.jpg"
+        _2x: "img/testimonials/daniel-jordan@2x.jpg"
+
+    - name: "Jonathan Peters"
+      position: "Textic, CEO"
+      content: "Whether you or your loved one is encountering the natural decrease in mobility that occurs with the passing of time, or deals with an illness-related lack of physical agility, a stair lift can be the ideal way to put you in charge of your home again. Regardless of the shape or make of your living accommodation."
+      image:
+        x: "img/testimonials/jonathan-peters.jpg"
+        _2x: "img/testimonials/jonathan-peters@2x.jpg"
+
+    - name: "Antonio Willis"
+      position: "Cyberse, CEO"
+      content: "In this digital generation where information can be easily obtained within seconds, business cards still have retained their importance in the achievement of increased business exposure and business sales. If your business already has a bunch of printed cards distributed to a number of potential customers and yet."
+      image:
+        x: "img/testimonials/antonio-willis.jpg"
+        _2x: "img/testimonials/antonio-willis@2x.jpg"
+
+# contact
+contact:
+  enable: true
+  title: "Contact"
+  form:
+    method: "POST"
+    action: "#"
+    full_name: "Full Name"
+    email: "Email Address"
+    message: "Type Your Message Here"
+  phone:
+    title: "Phone Number"
+    number: "+91 7678047728"
+  email:
+    title: "Email"
+    email: '<a href="mailto:rehan4747@gmail.com">rehan4747@gmail.com</a>'
+  address:
+    title: "Address"
+    address: "Mumbai, MH."
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Send Message"
+
+# newsletter
+newsletter:
+  enable: false
+  title: "Newsletter subscription"
+  success_message: "Successfully subscribed"
+  error_message: "Error while subscribing."
+  note: "We'll never share your email with anyone else."
